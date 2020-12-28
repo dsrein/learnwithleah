@@ -111,9 +111,14 @@ html, body, #hero, #overlay {
   color: #fff;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .center {
     font-size: 30px;
+  }
+
+  .about-img {
+    width: 100%;
+    height: auto;
   }
 }
 
