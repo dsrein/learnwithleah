@@ -111,6 +111,13 @@ html, body, #hero, #overlay {
   color: #fff;
 }
 
+@media screen and (max-width: 768px) {
+  .center {
+    font-size: 30px;
+  }
+}
+
+
 @-o-keyframes colorcycle {
   0%   {background: #F9D2CA;}
   25%  {background: #00aeff;}
