@@ -71,6 +71,10 @@ h1 {
     border: #232925 !important;
 }
 
+.more { 
+  display: none;
+}
+
 html, body, #hero, #overlay {
   height: 100%;
   width: 100%;
