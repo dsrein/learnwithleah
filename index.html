@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Learn Hebrew With Leah</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/scroll.css">
+<link href='http://fonts.googleapis.com/css?family=Source Serif Pro' rel='stylesheet' type='text/css'>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav id="navbar-example2" class="navbar navbar-light bg-light sticky-top">
+  <a class="navbar-brand" href="#">Learn With Leah</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#aboutLeah">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link social-icon social-icon-ig" href="#contact">Contact</a>
+    </li>
+  </ul>
+</nav>
+  <div id="hero">
+    <div id="overlay">
+        <div class="center">
+          <p>Learn Hebrew With Leah</p>
+          <section class="scrolldown">
+                <a href="#aboutLeah"><span></span></a>
+          </section>
+        </div>
+
+    </div>
+  </div>
+
+  <div>
+    <div class="block about" id="aboutLeah" >
+        <h1>About Teacher Leah</h1>
+        <p class="lead">Leah is a native Hebrew speaker who was born and raised in Israel. She has a Bachelor's Degree in Jewish Education and a Master's Degree in Social Work. She has experience teaching Hebrew in after-school programs, but mainly tutors privately for groups and individuals. Due to the Coronavirus, Leah is teaching remotely via Zoom. Depending on the level, she teaches the language through Hebrew literature, newspaper articles, and Israeli culture. For a tailored Hebrew learning experience, learn with Leah!</p>
+
+        <img src="images/main.png" class="about-img" width="600" height="600">
+    </div>
+    <div class="block component lesson-options" id="options" >
+        <h1>Hebrew Lesson Options</h1>
+        <figure class="figure px-2">
+          <img src="images/biblical.jpg" class="figure-img img-fluid rounded" width="500" height="600">
+          <figcaption class="figure-caption" style="color:#FADFD9;">Biblical Hebrew</figcaption>
+          <figcaption class="figure-caption" style="color:#FADFD9">The ancient language that is written in the Torah.</figcaption>
+        </figure>
+        <figure class="figure px-2">
+          <img src="images/contemporary.png" class="figure-img img-fluid rounded" width="500" height="600">
+          <figcaption class="figure-caption" style="color:#FADFD9;">Contemporary Hebrew</figcaption>
+          <figcaption class="figure-caption" style="color:#FADFD9">The modern language used in present-day Israel.</figcaption>
+        </figure>
+    </div>
+    <div class="component" id="testimonials" >
+        <div class="jumbotron">
+        <p class="lead">"It is a great privilege to have Leah as our Hebrew teacher. Not only does she teach us the Hebrew language, including vocabulary and grammar &ndash; with lots of opportunity to practice conversational Hebrew &ndash; but she also helps us to analyze Hebrew stories to uncover deeper meaning beneath the written words." &mdash;Judy P.</p></div>
+        <div class="jumbotron">
+        <p class="lead">"I write to provide a testimonial on behalf of Leah, who has been my teacher for about two years. Leah is a gifted teacher. She is knowledgeable and very well prepared. She has infinite patience with her sometimes thickheaded student &ndash; me &ndash; and always assures that learning takes place. Leah is smart, well prepared and conscientious &ndash; and injects a note of humor when appropriate. I love her as a teacher; I admire her as a person; I value her as a friend." &mdash;Stella S. </p></div>
+        <div class="jumbotron more">
+        <p class="lead">"I am writing this letter of recommendation for Leah, who has been my Hebrew teacher for over a year. She leads our small class of intermediate to advanced students very capably. Leah encourages us to converse with her in Hebrew about our lives. She provides lessons in grammar, and introduces us to words and phrases that are currently used in Israel. When we read a story in Hebrew, in addition to translating, she guides us to determine the intent of the author. She engages us by bringing in stories, poems and songs relating to holidays. Her homework assignments are imaginative. We are asked to devices alternate endings to the stories we are reading. We explore the background of the stories, and how they relate to the history of Israel." &mdash;Shelly G. </p></div>
+
+        <button onclick="myFunction()" class="btn btn-info contact contact-button" id="myBtn">Show more</button>
+
+        <script type="text/javascript">
+          function myFunction() {
+            var moreText = document.getElementsByClassName("more");
+            var btnText = document.getElementById("myBtn");
+
+            var display;
+            if (moreText[0].style.display === "none") {
+              btnText.innerHTML = "Show less"; 
+              moreText[0].style.display = "block";
+            } else {
+              btnText.innerHTML = "Show more"; 
+              moreText[0].style.display = "none";
+            }
+
+            var i;
+            for (i = 0; i < cars.length; i++) {
+              moreText[i].style.display = display;
+            }
+          }
+        </script>
+    </div>
+    <div class="block contact" id="contact" >
+        <h1>Contact Leah</h1>
+        <p>1 (917) 601-4818</p>
+        <p>learnwithleahr@gmail.com</p>
+          <a href="mailto:learnwithleahr@gmail.com" target="_blank" class="btn btn-info contact-button" role="button">Get in Touch</a>
+
+    </div>
+    <hr>
+    <footer>
+        <div class="row">
+            <div class="col-md-6">
+                <p>Copyright &copy; 2021 Learn With Leah</p>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
