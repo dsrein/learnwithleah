@@ -6,95 +6,109 @@ body {
   font-family: "Source Serif Pro", sans-serif;
 }
 
-h1 { 
-    text-align: center;
+h1 {
+  text-align: center;
+}
+
+ol.reasons {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .block {
- width: 100%;
- padding-top: 100px;
- padding-bottom: 50px;
- padding-left: 10px; 
- padding-right: 10px;
- background-clip: border-box;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-clip: border-box;
 }
 
 .about {
- background-color: #F9D2CA;
- color: #232925;
- text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F9D2CA;
+  color: #232925;
+  text-align: center;
 }
 
 .lesson-options {
-    text-align: center;
-    display: block;
+  text-align: center;
+  display: block;
 }
 
 .component {
- background-color: #232925;
- color: #F9D2CA;
- padding-bottom: 50px;
+  background-color: #232925;
+  color: #F9D2CA;
+  padding-bottom: 50px;
 }
 
-.lead { 
-    margin-left: auto;
-    margin-right: auto;
-    width: 85%;
+.lead {
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
 }
 
-.jumbotron { 
-    margin-left: auto;
-    margin-right: auto;
-    width: 85%;
-    background-color: #171c18;
-    padding-top: 50px;
-    padding-bottom: 20px;
-    color: #FADFD9;
+.jumbotron {
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  background-color: #171c18;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  color: #FADFD9;
 }
+
 .row {
- margin-top: 10px;
- padding-left: 10px; 
- padding-right: 10px;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.contact { 
-    text-align: center;
-    display: block;
- }
+.contact {
+  text-align: center;
+  display: block;
+}
 
 .contact-button {
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin: 10px auto 0px auto;
-    background-color: #F9D2CA !important;
-    border-color: #232925 !important;
-    border: #232925 !important;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 10px auto 0px auto;
+  background-color: #F9D2CA !important;
+  border-color: #232925 !important;
+  border: #232925 !important;
 }
 
-.more { 
+.more {
   display: none;
 }
 
-html, body, #hero, #overlay {
+html,
+body,
+#hero,
+#overlay {
   height: 100%;
   width: 100%;
   min-height: 100%;
   min-width: 100%;
 }
 
-#hero { background: url(https://s3.amazonaws.com/uploads.hipchat.com/21309/369069/P3rXUVfLuQGvv7N/bw.jpg) no-repeat center center fixed; 
+#hero {
+  background: url(https://s3.amazonaws.com/uploads.hipchat.com/21309/369069/P3rXUVfLuQGvv7N/bw.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-    }
+}
 
 
-#overlay { 
+#overlay {
   -o-animation: colorcycle 20s infinite;
   -moz-animation: colorcycle20s infinite;
   -webkit-animation: colorcycle 20s infinite;
-  animation: colorcycle 20s infinite; 
+  animation: colorcycle 20s infinite;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
   filter: alpha(opacity=50);
   -moz-opacity: 0.5;
@@ -128,33 +142,89 @@ html, body, #hero, #overlay {
 
 
 @-o-keyframes colorcycle {
-  0%   {background: #F9D2CA;}
-  25%  {background: #00aeff;}
-  50%  {background: #f45a4a;}
-  75%  {background: #4fd1cd;}
-  100% {background: #F9D2CA;}
+  0% {
+    background: #F9D2CA;
+  }
+
+  25% {
+    background: #00aeff;
+  }
+
+  50% {
+    background: #f45a4a;
+  }
+
+  75% {
+    background: #4fd1cd;
+  }
+
+  100% {
+    background: #F9D2CA;
+  }
 }
 
 @-moz-keyframes colorcycle {
-  0%   {background: #F9D2CA;}
-  25%  {background: #00aeff;}
-  50%  {background: #f45a4a;}
-  75%  {background: #4fd1cd;}
-  100% {background: #F9D2CA;}
+  0% {
+    background: #F9D2CA;
+  }
+
+  25% {
+    background: #00aeff;
+  }
+
+  50% {
+    background: #f45a4a;
+  }
+
+  75% {
+    background: #4fd1cd;
+  }
+
+  100% {
+    background: #F9D2CA;
+  }
 }
 
 @-webkit-keyframes colorcycle {
-  0%   {background: #F9D2CA;}
-  25%  {background: #00aeff;}
-  50%  {background: #f45a4a;}
-  75%  {background: #4fd1cd;}
-  100% {background: #F9D2CA;}
+  0% {
+    background: #F9D2CA;
+  }
+
+  25% {
+    background: #00aeff;
+  }
+
+  50% {
+    background: #f45a4a;
+  }
+
+  75% {
+    background: #4fd1cd;
+  }
+
+  100% {
+    background: #F9D2CA;
+  }
 }
 
 @keyframes colorcycle {
-  0%   {background: #F9D2CA;}
-  25%  {background: #00aeff;}
-  50%  {background: #f45a4a;}
-  75%  {background: #4fd1cd;}
-  100% {background: #F9D2CA;}
+  0% {
+    background: #F9D2CA;
+  }
+
+  25% {
+    background: #00aeff;
+  }
+
+  50% {
+    background: #f45a4a;
+  }
+
+  75% {
+    background: #4fd1cd;
+  }
+
+  100% {
+    background: #F9D2CA;
+  }
 }
